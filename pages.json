@@ -18,6 +18,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"subPackages": [
 	    {
@@ -57,6 +66,12 @@
 			"text": "首页",
 			"iconPath": "static/logo.png",
 			"selectedIconPath": "static/logo.png"
+		  },
+		  {
+		  			"pagePath": "pages/cate/cate",
+		  			"text": "分类",
+		  			"iconPath": "static/logo.png",
+		  			"selectedIconPath": "static/logo.png"
 		  },
 		  {
 			"pagePath": "pages/my/my",
