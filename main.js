@@ -6,6 +6,9 @@ import Vue from 'vue'
 import { $http } from '@escook/request-miniprogram'
 // import { showToast } from './common/common.js'
 import * as getters from './common/common.js'
+//导入store的实例对象
+import store from './store/store.js'
+
 uni.$http = $http
 uni.$showMsg = getters.showToast
 
@@ -26,7 +29,9 @@ $http.afterRequest = function () {
 Vue.config.productionTip = false
 App.mpType = 'app'
 const app = new Vue({
-    ...App
+    ...App,
+	//将store挂载到vue实例上
+	store,
 })
 app.$mount()
 // #endif

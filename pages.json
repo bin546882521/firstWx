@@ -27,6 +27,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"subPackages": [
 	    {
@@ -80,6 +89,12 @@
 		  {
 		  			"pagePath": "pages/cate/cate",
 		  			"text": "分类",
+		  			"iconPath": "static/logo.png",
+		  			"selectedIconPath": "static/logo.png"
+		  },
+		  {
+		  			"pagePath": "pages/cart/cart",
+		  			"text": "购物车",
 		  			"iconPath": "static/logo.png",
 		  			"selectedIconPath": "static/logo.png"
 		  },
